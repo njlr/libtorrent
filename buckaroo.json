@@ -1,0 +1,12 @@
+{
+  "name": "libtorrent",
+  "dependencies": {
+    "boost-config": "1.63.0",
+    "boost-system": "1.63.0",
+    "boost-asio": "1.63.0",
+    "boost-pool": "1.63.0",
+    "boost-variant": "1.63.0",
+    "boost-multiprecision": "1.63.0",
+    "boost-crc": "1.63.0"
+  }
+}

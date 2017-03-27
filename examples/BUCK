@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'bt-get',
+  srcs = [
+    'bt-get.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:libtorrent',
+  ],
+)
